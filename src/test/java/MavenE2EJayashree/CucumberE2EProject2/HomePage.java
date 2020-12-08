@@ -36,6 +36,7 @@ public class HomePage extends Base {
 
 		log.info("browser initialized");
 		log.info("Chrome browser getting initialized");
+		System.out.println("this one is to test and see if upload to git successful");
 
 	}
 
