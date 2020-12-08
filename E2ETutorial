@@ -1,0 +1,76 @@
+BEFORE PARAMETERIZATION:
+
+*****Cucumber requires *****
+1. features file ( login.feature)
+2. Step defintion file 
+3. CucumberOptions > TestRunner.
+
+This is how the feature file would be : Any thing put in double quotes, cucubmer assumes it to be dynamic and creates step definition according to it. 
+
+***Feature:*** Login to the Signin Page
+
+  Scenario : Logging in with valid credentials
+  
+    Given I have initialized the driver to open the chromedriver
+    And hit "https://rahulshettyacademy.com/" on chromebrowser
+    When I click on the Signin link of the Page and get to signin page.send valid user credentials such as  userName "jhemmige@gmail.com"  and password "112345"
+    Then Successfully logged into my account.
+    And close the browser
+    
+    
+    ******STEPDEFINITION GENERATED for the above feature *****
+    
+    package my.package.name
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class MyStepDefinitions {
+
+    @Given("^I have initialized the driver to open the chromedriver$")
+    public void i_have_initialized_the_driver_to_open_the_chromedriver() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^I click on the Signin link of the Page and get to signin page.send valid user credentials such as  userName \"([^\"]*)\"  and password \"([^\"]*)\"$")
+    public void i_click_on_the_signin_link_of_the_page_and_get_to_signin_pagesend_valid_user_credentials_such_as_username_something_and_password_something(String strArg1, String strArg2) throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^Successfully logged into my account\.$")
+    public void successfully_logged_into_my_account() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^hit \"([^\"]*)\" on chromebrowser$")
+    public void hit_something_on_chromebrowser(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^close the browser$")
+    public void close_the_browser() throws Throwable {
+        throw new PendingException();
+    }
+
+}
+
+
+CUCUMBER PARAMETERIZATION
+
+1. Use scenario outline and not just scenario
+2. User the header of the parameterized values and pass them as arguments in stepdefinition
+3. To configure a Junit test to Testng, we need to add mvn cucumber testng dependency. 
+4. Include the test in the .xml file ref : TestngCucumber.xml ( this file was created to run cucumber test)
+5. for running in maven, we just need to reference the terminal to the cucumber E2E project
+
+reference:
+
+https://github.com/rameshkorla1/CucumberBasic
+
+

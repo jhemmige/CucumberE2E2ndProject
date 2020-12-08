@@ -1,0 +1,11 @@
+22:25:26.163 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - url is hit
+22:25:34.443 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yay my printUnrestricted User
+22:25:36.244 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - url is hit
+22:25:45.176 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yay my printrestricted User
+22:25:47.148 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - url is hit
+22:25:53.392 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yay my printlimited User
+22:25:54.807 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - url is hit
+22:25:59.723 [main] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yay my printlimited User new 
+12:47:04.152 [TestNG-tests-1] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - browser initialized
+12:47:04.162 [TestNG-tests-1] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - Chrome browser getting initialized
+12:47:07.964 [TestNG-tests-1] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - url is hit

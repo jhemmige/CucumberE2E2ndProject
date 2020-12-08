@@ -1,0 +1,5 @@
+12:47:25.419 [TestNG-tests-1] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yay my printUnrestricted User
+12:47:26.729 [TestNG-tests-1] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yippee ...my tests passed. yolo this is from listener's class 
+12:47:28.591 [TestNG-tests-1] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - url is hit
+12:47:29.457 [TestNG-tests-2] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yippee ...my tests passed. yolo this is from listener's class 
+14:48:57.862 [TestNG] INFO  MavenE2EJayashree.CucumberE2EProject2.HomePage - yippee ...my tests passed. yolo this is from listener's class 

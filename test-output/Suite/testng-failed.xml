@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="MavenE2EJayashree.CucumberE2EProject2.ListenerNewparallel"/>
+    <listener class-name="MavenE2EJayashree.CucumberE2EProject2.ListenerNew"/>
+  </listeners>
+  <test thread-count="5" name="Validating Title(failed)" parallel="tests">
+    <classes>
+      <class name="MavenE2EJayashree.CucumberE2EProject2.HomePage2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeDriver"/>
+          <include name="basehomePageNavigation"/>
+          <include name="linkDisplay"/>
+        </methods>
+      </class> <!-- MavenE2EJayashree.CucumberE2EProject2.HomePage2 -->
+    </classes>
+  </test> <!-- Validating Title(failed) -->
+  <test thread-count="5" name="Validating logIn(failed)" parallel="tests">
+    <classes>
+      <class name="MavenE2EJayashree.CucumberE2EProject2.HomePage">
+        <methods>
+          <include name="base1PageNavigation" invocation-numbers="1 2 3"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MavenE2EJayashree.CucumberE2EProject2.HomePage -->
+    </classes>
+  </test> <!-- Validating logIn(failed) -->
+</suite> <!-- Failed suite [Suite] -->
